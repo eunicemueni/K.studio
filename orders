@@ -1,0 +1,13 @@
+{
+  "userId": "uid or email",
+  "plan": "Entry|Pro|Diamond|Lifetime",
+  "txId": "transaction id from PayPal/Paystack/M-Pesa",
+  "amount": 19,
+  "status": "pending|processing|completed|failed",
+  "createdAt": "...",
+  "prompt": {
+     "title": "user prompt",
+     "details": "..."
+  },
+  "resultUrl": "gs://... or https://drive..."
+}
